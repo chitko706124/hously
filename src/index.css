@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+}
+
+body {
+  height: 2000px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.myGlass {
+  width: 100wh;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(9px);
+}
+
+.btn {
+  align-items: center;
+  font-size: 17px;
+  font-weight: 500;
+  height: 2.5rem;
+  justify-content: center;
+  line-height: 24px;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  vertical-align: middle;
+}
+
+.owl-dots {
+  background-color: #000; /* Custom background color */
+  width: 10px; /* Custom width */
+  height: 10px; /* Custom height */
+  margin: 5px; /* Custom margin between dots */
+  border-radius: 50%; /* Custom border radius for rounded dots */
+}
+
+.owl-prev {
+  position: absolute;
+  top: 50%;
+  left: -200px; /* Adjust the left position */
+}
+
+.owl-next {
+  position: absolute;
+  top: 50%;
+  right: -20%; /* Adjust the right position */
+}
+
+.container {
+  width: 100%;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+@media (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (min-width: 400px) {
+  .container {
+    max-width: 400px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-left: 13rem;
+    padding-right: 13rem;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
